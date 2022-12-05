@@ -135,7 +135,7 @@ setTimeout(timer,3000);
  ]
   
  let isAdmin = users.some(function(user){
-    return user.role == 'admin'
+    return user.role == 'admin' && user.name === UserName
  })
 
  if (isAdmin){
