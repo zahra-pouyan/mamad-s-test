@@ -7,7 +7,7 @@ function sumOfMoney (a, b, c) {
         console.log('enjoy having money')
     }
 }
-sumOfMoney(1500 ,100 ,200 ) 
+sumOfMoney( , , ) 
 
 
 // scond exercise 
