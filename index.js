@@ -19,7 +19,9 @@ console.log(fileType);
 
 
 // thired exercise 
-
+let today = new Date();
+let days = ['sunday', 'monday', 'Tuesday', 'wednesday', 'tursday', 'friday', 'saturday'];
+console.log(days[today.getDay()]);
 
 
 
@@ -82,9 +84,17 @@ console.log(even);
 
 
 // tenth exercise 
-// let Word ;
-// let letter ;
-// let separateLetter = Word.split('');
+let Word ;
+let letter ;
+let separateLetter = Word.split('');
+let filterLetter = separateLetter.filter(function(character){
+    return character === letter
+})
+if (filterLetter.length > 3){
+    console.log('this character was used more than 3 times! ');
+} else {
+    console.log('this character was used less than 3 times! ');
+}
 
 // **************************************************************************************************
 
